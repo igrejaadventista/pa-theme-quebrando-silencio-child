@@ -1,0 +1,15 @@
+.pa-archive-projects {
+  figure {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    figcaption {
+      h3 {
+        color: var(--pa-color-gray01);
+      }
+    }
+  }
+}

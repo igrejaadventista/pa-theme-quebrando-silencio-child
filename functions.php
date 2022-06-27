@@ -1,14 +1,11 @@
 <?php
-class PA_Enqueue_Files
-{
-    public function __construct()
-    {
-        add_action('wp_enqueue_scripts', [$this, 'RegisterChildAssets']);
-    }
 
-    public function RegisterChildAssets()
-    {
-        wp_enqueue_style('pa-child-style', get_stylesheet_uri());
-    }
-}
-new PA_Enqueue_Files();
+require_once 'vendor/autoload.php';
+require_once(dirname(__FILE__) . '/classes/controllers/PA_CPT_Projects.class.php');
+require_once(dirname(__FILE__) . '/classes/controllers/PA_CPT_SliderHome.class.php');
+require_once(dirname(__FILE__) . '/classes/controllers/PA_Enqueue_Files.class.php');
+
+
+add_action('after_setup_theme', function () {
+    load_theme_textdomain('iasd', get_stylesheet_directory() . '/language/');
+}, 9);
