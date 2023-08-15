@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*!
+Theme Name: PA - Theme Quebrando o silêncio (Child)
+Theme URI: quebrandoosilencio.org
+Description: Parent theme for adventistas.org website network.
+Author: WebDSA
+Version: 0.0.1
+Template: pa-theme-sedes
+*/
+.post-type-archive-magazines .pa-header a,
+.single-magazines .pa-header a {
+  color: white;
+}
+.post-type-archive-magazines .btn:hover,
+.single-magazines .btn:hover {
+  text-decoration: none;
+}
+.post-type-archive-magazines .pa-img-tag,
+.single-magazines .pa-img-tag {
+  position: absolute;
+  background-color: var(--pa-color-default);
+  color: #fff;
+  bottom: 1.5rem;
+  left: 0;
+  font-size: 0.8rem;
+  padding: 0.5em 0.4em;
+  line-height: 100%;
+}
+.post-type-archive-magazines figure img,
+.single-magazines figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pa-archive-projects figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.pa-archive-projects figure figcaption h3 {
+  color: var(--pa-color-gray01);
+}
+
+.pa-slider-principal {
+  background-color: black;
+}
+.pa-slider-principal .glide__slide {
+  background-size: auto 100%;
+  background-position: center;
+  opacity: 0.5;
+  transition: opacity 0.5s;
+  background-color: black;
+}
+.pa-slider-principal .glide__slide .container .row {
+  height: 600px;
+  color: white;
+}
+@media (max-width: 575px) {
+  .pa-slider-principal .glide__slide .container .row {
+    height: 134.933vw;
+  }
+}
+.pa-slider-principal .glide__slide .container .row h1 {
+  font-family: var(--pa-font-secondary);
+  font-weight: bold;
+  letter-spacing: 0.025em;
+}
+.pa-slider-principal .glide__slide .container .row span,
+.pa-slider-principal .glide__slide .container .row small {
+  letter-spacing: 0.1em;
+}
+.pa-slider-principal .glide__slide--active {
+  opacity: 1;
+}
+.pa-slider-principal .pa-glide-principal {
+  position: relative;
+}
+.pa-slider-principal .pa-glide-principal .pa_slide_item a.btn {
+  border: none;
+  filter: brightness(100%) grayscale(0%);
+  -webkit-filter: brightness(100%) grayscale(0%);
+  -moz-filter: brightness(100%) grayscale(0%);
+  -o-filter: brightness(100%) grayscale(0%);
+  -ms-filter: brightness(100%) grayscale(0%);
+  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+}
+.pa-slider-principal .pa-glide-principal .pa_slide_item a.btn:hover {
+  filter: brightness(130%) grayscale(30%);
+  -webkit-filter: brightness(130%) grayscale(30%);
+  -moz-filter: brightness(130%) grayscale(30%);
+  -o-filter: brightness(130%) grayscale(30%);
+  -ms-filter: brightness(130%) grayscale(30%);
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle {
+  color: var(--pa-color-default-aux);
+  cursor: pointer;
+  position: absolute;
+  right: 52px;
+  bottom: 0;
+  left: 52px;
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle .icon {
+  color: var(--pa-color-default);
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle .pa-slider-bullet {
+  font-size: 0.5rem;
+}
+.pa-slider-principal .pa-glide-principal .pa-slider-controle .glide__bullet--active {
+  color: white;
+  background-color: transparent;
+}
+
+:root {
+  --pa-color-default: #D42024 !important;
+  --pa-color-default-light: #000000 !important;
+  --pa-color-default-dark: #000;
+  --pa-color-default-aux: #ffc12a !important;
+  --pa-color-secondary: var(--pa-color-default);
+  --pa-color-gray01: #303336;
+  --pa-color-gray02: #585a5d;
+  --pa-color-gray03: #5a5c5e;
+  --pa-color-gray04: #cacaca;
+  --pa-color-gray05: #eef0f3;
+  --pa-color-gray06: #f7f8fa;
+  --pa-font-default: "Noto Sans", sans-serif;
+  --pa-font-secondary: "Noto Serif", serif;
+  --bs-primary: var(--pa-color-default);
+  --bs-font-sans-serif: var(--pa-font-default);
+  --bs-font-monospace: var(--pa-font-secondary);
+}
+
+header.pa-menu {
+  background-color: #131313 !important;
+}
+
+.pa-menu-mobile .fa-bars::before {
+  color: white !important;
+}
+
+.pa-menu-default > .nav > li > .nav-link,
+.pa-menu-global .nav-link {
+  color: white !important;
+}
+
+.page-template-page-front-page header.pa-menu {
+  position: absolute !important;
+  background-color: rgba(0, 0, 0, 0.27) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  backdrop-filter: blur(4px);
+  width: 100%;
+  z-index: 9999;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map*/

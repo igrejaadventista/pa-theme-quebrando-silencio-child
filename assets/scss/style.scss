@@ -1,0 +1,86 @@
+/*!
+Theme Name: PA - Theme Quebrando o silêncio (Child)
+Theme URI: quebrandoosilencio.org
+Description: Parent theme for adventistas.org website network.
+Author: WebDSA
+Version: 0.0.1
+Template: pa-theme-sedes
+*/
+
+@import "pa-cpt-magazine";
+@import "pa-cpt-projects";
+@import "pa-front-page";
+
+
+:root {
+    --pa-color-default: #D42024 !important;
+    --pa-color-default-light: #000000 !important;
+    --pa-color-default-dark: #000;
+    --pa-color-default-aux: #ffc12a !important;
+    --pa-color-secondary: var(--pa-color-default);
+    --pa-color-gray01: #303336;
+    --pa-color-gray02: #585a5d;
+    --pa-color-gray03: #5a5c5e;
+    --pa-color-gray04: #cacaca;
+    --pa-color-gray05: #eef0f3;
+    --pa-color-gray06: #f7f8fa;
+    --pa-font-default: "Noto Sans", sans-serif;
+    --pa-font-secondary: "Noto Serif", serif;
+    --bs-primary: var(--pa-color-default);
+    --bs-font-sans-serif: var(--pa-font-default);
+    --bs-font-monospace: var(--pa-font-secondary);
+}
+
+header.pa-menu {
+    background-color: #131313 !important;
+}
+
+.pa-menu-mobile .fa-bars::before {
+    color: white !important;
+}
+
+.pa-menu-default>.nav>li>.nav-link,
+.pa-menu-global .nav-link {
+    color: white !important;
+}
+
+.page-template-page-front-page {
+
+    header.pa-menu {
+        position: absolute !important;
+        background-color: rgb(0 0 0 / 27%) !important;
+        -webkit-backdrop-filter: blur(5px) !important;
+        backdrop-filter: blur(4px);
+        width: 100%;
+        z-index: 9999;
+        position: relative;
+
+        // .pa-menu-desktop a {
+        //     filter: invert(1) !important;
+        //     -webkit-filter: invert(1) !important;
+        //     -moz-filter: invert(1) !important;
+        //     -o-filter: invert(1) !important;
+        //     -ms-filter: invert(1) !important;
+        // }
+
+        // .pa-menu-global .nav-link {
+        //     color: var(--pa-color-default-light) !important;
+        // }
+
+        // .pa-menu-mobile .pa-logo-iasd, .pa-menu-mobile .fa-bars{
+        //     filter: invert(1);
+        //     -webkit-filter: invert(1) !important;;
+        //     -moz-filter: invert(1) !important;;
+        //     -o-filter: invert(1) !important;;
+        //     -ms-filter: invert(1) !important;;
+        // }
+
+        // .pa-menu li a, ul.dropdown-menu a {
+        //     filter: invert(0) !important;
+        //     -webkit-filter: invert(0) !important;;
+        //     -moz-filter: invert(0) !important;;
+        //     -o-filter: invert(0) !important;;
+        //     -ms-filter: invert(0)!important;;
+        // }
+    }
+}
