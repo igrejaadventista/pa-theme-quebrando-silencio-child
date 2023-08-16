@@ -132,6 +132,11 @@ Template: pa-theme-sedes
   --bs-font-monospace: var(--pa-font-secondary);
 }
 
+.pa-content ul {
+  line-height: 2rem;
+  color: var(--pa-color-gray03);
+}
+
 header.pa-menu {
   background-color: #131313 !important;
 }

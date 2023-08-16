@@ -11,12 +11,12 @@
             "version": "9.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wordplate/extended-acf.git",
+                "url": "https://github.com/vinkla/extended-acf.git",
                 "reference": "c2a8c48a1580b2a5e9978d3350ff8c3d4df3e115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wordplate/extended-acf/zipball/c2a8c48a1580b2a5e9978d3350ff8c3d4df3e115",
+                "url": "https://api.github.com/repos/vinkla/extended-acf/zipball/c2a8c48a1580b2a5e9978d3350ff8c3d4df3e115",
                 "reference": "c2a8c48a1580b2a5e9978d3350ff8c3d4df3e115",
                 "shasum": ""
             },
@@ -65,9 +65,10 @@
                 "wordpress"
             ],
             "support": {
-                "issues": "https://github.com/wordplate/extended-acf/issues",
-                "source": "https://github.com/wordplate/extended-acf/tree/9.1.0"
+                "issues": "https://github.com/vinkla/extended-acf/issues",
+                "source": "https://github.com/vinkla/extended-acf/tree/9.1.0"
             },
+            "abandoned": "vinkla/extended-acf",
             "time": "2020-12-01T20:53:45+00:00"
         }
     ],
@@ -79,5 +80,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

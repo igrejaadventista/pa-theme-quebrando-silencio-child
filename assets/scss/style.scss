@@ -31,6 +31,12 @@ Template: pa-theme-sedes
     --bs-font-monospace: var(--pa-font-secondary);
 }
 
+.pa-content ul {
+    line-height: 2rem;
+    color: var(--pa-color-gray03);
+}
+
+
 header.pa-menu {
     background-color: #131313 !important;
 }
@@ -54,33 +60,5 @@ header.pa-menu {
         width: 100%;
         z-index: 9999;
         position: relative;
-
-        // .pa-menu-desktop a {
-        //     filter: invert(1) !important;
-        //     -webkit-filter: invert(1) !important;
-        //     -moz-filter: invert(1) !important;
-        //     -o-filter: invert(1) !important;
-        //     -ms-filter: invert(1) !important;
-        // }
-
-        // .pa-menu-global .nav-link {
-        //     color: var(--pa-color-default-light) !important;
-        // }
-
-        // .pa-menu-mobile .pa-logo-iasd, .pa-menu-mobile .fa-bars{
-        //     filter: invert(1);
-        //     -webkit-filter: invert(1) !important;;
-        //     -moz-filter: invert(1) !important;;
-        //     -o-filter: invert(1) !important;;
-        //     -ms-filter: invert(1) !important;;
-        // }
-
-        // .pa-menu li a, ul.dropdown-menu a {
-        //     filter: invert(0) !important;
-        //     -webkit-filter: invert(0) !important;;
-        //     -moz-filter: invert(0) !important;;
-        //     -o-filter: invert(0) !important;;
-        //     -ms-filter: invert(0)!important;;
-        // }
     }
 }

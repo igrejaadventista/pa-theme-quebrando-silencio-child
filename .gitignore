@@ -1,2 +1,5 @@
 /vendor
 /node_modules
+/styles.css
+/composer.lock
+/package-lock.json
