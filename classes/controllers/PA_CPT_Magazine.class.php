@@ -49,7 +49,7 @@ class PaCptMagazines
 			'publicly_queryable'    => true,
 			'capability_type'       => 'page',
 			'show_in_rest'          => true,
-			'rewrite'				=> array('slug' => sanitize_title(__('Magazines', 'iasd')))
+			'rewrite'				=> array('slug' => sanitize_title(__('campaigns', 'iasd')))
 		);
 		register_post_type('magazines', $args);
 	}
