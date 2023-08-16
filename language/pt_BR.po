@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-09 10:44-0300\n"
-"PO-Revision-Date: 2023-08-09 10:46-0300\n"
+"POT-Creation-Date: 2023-08-16 11:24-0300\n"
+"PO-Revision-Date: 2023-08-16 11:25-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -20,14 +20,14 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-1: vendor\n"
 "X-Poedit-SearchPathExcluded-2: node_modules\n"
 
-#: archive-magazines.php:19
+#: archive-magazines.php:20
 msgid "News"
 msgstr "Notícias"
 
 #: classes/controllers/PA_CPT_Magazine.class.php:21
 #: classes/controllers/PA_CPT_Magazine.class.php:23
 #: classes/controllers/PA_CPT_Magazine.class.php:24
-#: classes/controllers/PA_CPT_Magazine.class.php:47
+#: classes/controllers/PA_CPT_Magazine.class.php:52 template-parts/header.php:8
 msgid "Magazines"
 msgstr "Revistas"
 
@@ -90,9 +90,9 @@ msgstr "Nenhuma correspondência encontrada."
 msgid "Not found in Trash."
 msgstr "Nada foi encontrado na lixeira."
 
-#: classes/controllers/PA_CPT_Magazine.class.php:52
-msgid "magazine-slug"
-msgstr "revista"
+#: classes/controllers/PA_CPT_Magazine.class.php:47
+msgid "campaigns"
+msgstr "campanhas"
 
 #: classes/controllers/PA_CPT_Magazine.class.php:63
 msgid "List"
@@ -190,6 +190,13 @@ msgstr "Igreja Adventista do Sétimo Dia"
 #: components/menu/footer.php:86
 msgid "Go to top"
 msgstr "Ir ao topo"
+
+#: single-magazines.php:34
+msgid "Download"
+msgstr ""
+
+#~ msgid "magazine-slug"
+#~ msgstr "revista"
 
 #~ msgid "/leaders/"
 #~ msgstr "/lideres/"

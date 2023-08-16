@@ -44,7 +44,7 @@ class PaCptMagazines
 			'show_in_admin_bar'     => true,
 			'show_in_nav_menus'     => true,
 			'can_export'            => true,
-			'has_archive'           => sanitize_title(__('Magazines', 'iasd')),
+			'has_archive'           => sanitize_title(__('campaigns', 'iasd')),
 			'exclude_from_search'   => false,
 			'publicly_queryable'    => true,
 			'capability_type'       => 'page',
